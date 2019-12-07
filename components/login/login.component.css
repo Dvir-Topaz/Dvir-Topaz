@@ -1,0 +1,11 @@
+section{
+    height: 100%;
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-columns: 20% 80%;
+}
+
+section>*{
+    border: solid black 1px; 
+}

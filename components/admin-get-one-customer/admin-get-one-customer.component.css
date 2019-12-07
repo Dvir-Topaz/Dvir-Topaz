@@ -1,0 +1,14 @@
+div{
+    margin: 1px;
+    
+}
+
+div>a{
+    display: block;
+    padding: 1px;
+    margin: 1px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background-color: lightsteelblue;}

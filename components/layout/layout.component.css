@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+}
+
+section{
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 70% 10;
+    grid-template-columns: 20% 80%;
+}
+
+section>*{
+    border: solid black 1px; 
+}
+
+header{
+    grid-column: span 2;
+}
+
+nav{
+height: 350px;
+}
+
+footer{
+    grid-column: span 2;
+}
+
+main{
+    overflow: auto;
+}

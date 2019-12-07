@@ -1,0 +1,12 @@
+<div>
+        <input type="text" placeholder="Enter name of company" [(ngModel)]=company.name><br>
+        <input type="text" placeholder="Enter title for the coupon" [(ngModel)]=coupon.title><br>
+        <input type="text" placeholder="Enter category the coupon" [(ngModel)]=coupon.category><br>
+        <input type="text" placeholder="Enter description the coupon" [(ngModel)]=coupon.description><br>
+        <input type="date" placeholder="Enter start date of the coupon" [(ngModel)]=coupon.startDate><br>
+        <input type="date" placeholder="Enter end date of the coupon" [(ngModel)]=coupon.endDate><br>
+        <input type="number" placeholder="Enter amount of coupons" [(ngModel)]=coupon.amount><br>
+        <input type="number" placeholder="Enter price  of coupon" [(ngModel)]=coupon.price><br>
+        <input type="image" placeholder="upload image of the coupon" [(ngModel)]=coupon.img><br>
+        <button (click) =addNewCoupon()>Submit</button>
+    </div>
